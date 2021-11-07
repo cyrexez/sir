@@ -2,13 +2,16 @@
 <html lang="en">
 <title>Programs</title>
 <head >
-    <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/path/to/tailwind.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/0001.png" type="image/x-icon">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <style type="text/css">
   img{
@@ -16,7 +19,7 @@
     object-fit: contain;
   }
     .jumbotron {
-      padding: 4rem 2rem;
+      padding: 4rem;
       margin-bottom: 2rem;
       background-color: var(--bs-light);
       border-radius: .3rem;  
@@ -25,7 +28,7 @@
         background-color: #553c9a;
     }
        .navbar-custom{
-     
+        color: #ffff !important;
       background-color: #553c9a;
     
     }
@@ -45,36 +48,38 @@
   padding: 10px;
   font-size: 20px;
 }
+
+@media screen and (max-width:576px) {
+    .jumbotron {padding: 4rem 2rem;}
+}
 </style>
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+<body>
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-custom">
   <div class="container-fluid ">
     <img src="img/0001.png" width="50" height="50"
-     style="object-fit:contain;">
-    <a class=" text-purple-600 navbar-brand" href="Scholar in Residence.html">Welcome to Scholars in Residence</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    style="object-fit:contain;">
+    <a class="text-white-600 navbar-brand" href="Scholar in Residence.html"> Scholars in Residence</a>
+    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class=" text-purple-800 nav justify-content-end" class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end text-white-800 " id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" caria-current="page" href="Scholar in Residence.html">Home</a>
+          <a class="nav-link active" caria-current="page" href="#">Home</a>
         </li>
-  <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link active" href="programs.html">Programs</a>
-        </li>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="faq.html">FAQ</a>
 
         </li>
-         <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link active" href="partners.html">Partners</a>
         </li>
-         <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link active" href="contact.html">Contact Us</a>
         </li>
       </ul>
@@ -82,57 +87,45 @@
   </div>
 </div>
 </nav>
-<body>
-  <div class=" text-purple-600 bg-purple px-4 py-5 my-5 text-center">
-      <h1>Programs</h1>
+      <h1 class="text-center mt-3">Programs</h1>
+        <div class="jumbotron">
+          <h3>STUDENT LOANS</h3>
+          <p class='py-10'>Our student loan program offers loans to eligible student instructors interest free. This loan will be deducted at a stipulated rate from the instructor’s income monthly.
+          </p>
+        </div>
+        <div class="jumbotron">
+          <h3>APPLICATION TO FOREIGN UNIVERSITIES</h3>
+          <p class='py-10'>Our instructors have free access to the services of Qpat Solution Limited, a partner organisation that helps secure admission to higher institutions and facilitate scholarship. 
+          </p>
+        </div>
+        <div class="jumbotron">
 
-    <div class="jumbotron">
-
-  <h3>STUDENT LOANS</h3>
-<p class='px-10 py-10'>Our student loan program offers loans to eligible student instructors interest free. This loan will be deducted at a stipulated rate from the instructor’s income monthly.
-</p>
+          <h4>MENTORING</h4>
+          <p class='py-10'>Our instructors have access to well experienced mentors who will help them grow their skills, make better decisions, and gain new perspectives on their life and career.
+           </p>
+        </div>
+        <div class="jumbotron">
+          <h4>PAID ONLINE COURSES AND TRAINING</h4>
+          <p class='py-10'>We are focused on imparting young individuals. So if our instructors want to add a new skill that could be beneficial to them and our organisation, we will gladly sponsor them to learn it. 
+          </p>
+        </div>
+        <div class="jumbotron">
+            <h4>JOB PLACEMENT ASSISTANCE AND NETWORKING</h4>
+            <p class='py-10'>We provide our instructors with a variety of different sources for their internship placements and job search. We also assist them in getting ready for interviews.
+            </p>
+        </div>
+    <div class="bg-dark text-secondary px-2 py-4">
+        <h2 class="fw-bold text-white">Follow us on the following social media platforms</h2> 
+     <div class="col">
+      <a href="http://www.facebook.com"><span class="iconify" data-icon="feather:facebook" data-inline="false"></span></a>
+      <span class="iconify" data-icon="feather:mail" data-inline="false">scholarsinresidencenigeria@gmail.com</span>
+      <p>scholarsinresidencenigeria@gmail.com</p>
+      <a href="http://www.twitter.com"><span class="iconify" data-icon="feather:twitter" data-inline="false"></span></a>
+      <p></p>
+      <a href="http://www.instagram.com"><span class="iconify" data-icon="feather:instagram" data-inline="false"></span></a>
+      <h2 class="fw-bold text-white">Phone number</h2> 
+      <p>+1(407)6842534</p>
     </div>
-     <div class="jumbotron">
-
-  <h3>APPLICATION TO FOREIGN UNIVERSITIES</h3>
-<p class='px-10 py-10'>Our instructors have free access to the services of Qpat Solution Limited, a partner organisation that helps secure admission to higher institutions and facilitate scholarship. 
-</p>
-    </div>
-     <div class="jumbotron">
-
-  <h4>MENTORING</h4>
-<p class='px-10 py-10'>Our instructors have access to well experienced mentors who will help them grow their skills, make better decisions, and gain new perspectives on their life and career.
-</p>
-    </div>
-     <div class="jumbotron">
-
-  <h4>PAID ONLINE COURSES AND TRAINING</h4>
-<p class='px-10 py-10'>We are focused on imparting young individuals. So if our instructors want to add a new skill that could be beneficial to them and our organisation, we will gladly sponsor them to learn it. 
-</p>
-    </div>
-    <div class="jumbotron">
-
-  <h4>JOB PLACEMENT ASSISTANCE AND NETWORKING</h4>
-<p class='px-10 py-10'>We provide our instructors with a variety of different sources for their internship placements and job search. We also assist them in getting ready for interviews.
-</p>
-    </div>
- <div class="bg-dark text-secondary px-4 py-5">
-   <h2 class="fw-bold text-white">Follow us on the following social media platforms</h2> 
-<div class="col">
-
- <a href="http://www.facebook.com"><span class="iconify" data-icon="feather:facebook" data-inline="false"></span></a>
-
-
-<span class="iconify" data-icon="feather:mail" data-inline="false">scholarsinresidencenigeria@gmail.com</span>
-<p>scholarsinresidencenigeria@gmail.com</p>
-<!
-<a href="http://www.twitter.com"><span class="iconify" data-icon="feather:twitter" data-inline="false"></span></a>
-<p></p>
-<a href="http://www.instagram.com"><span class="iconify" data-icon="feather:instagram" data-inline="false"></span></a>
-<h2 class="fw-bold text-white">Phone number</h2> 
-<p>+1(407)6842534</p>
-</div>
-
 <footer>Copyright &copy 2021</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
